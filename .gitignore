@@ -57,4 +57,4 @@ buildNumber.properties
 .classpath
 
 # Flattened POM
-.flatten-pom.xml
+.flattened-pom.xml
