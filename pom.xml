@@ -4,7 +4,7 @@
 
   <parent>
     <groupId>io.sckw.common.code</groupId>
-    <artifactId>common-code-plugin</artifactId>
+    <artifactId>common-code-parent</artifactId>
     <version>1.0.0</version>
     <relativePath />
   </parent>
