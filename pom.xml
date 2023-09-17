@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.sckw.common.code</groupId>
+    <artifactId>common-code-parent</artifactId>
+    <version>1.0.0</version>
+    <relativePath />
+  </parent>
+
+  <groupId>io.sckw.common.code</groupId>
+  <artifactId>common-code-pmd</artifactId>
+  <version>${revision}${sha1}${changelist}</version>
+  <name>common-code-pmd</name>
+  <description>Custom Maven PMD Rule Sets</description>
+
+  <properties>
+    <revision>1.0.0</revision>       <!-- major.minor.patch -->
+    <sha1></sha1>                    <!-- release candidate -->
+    <changelist></changelist>        <!-- -SNAPSHOT or ""   -->
+  </properties>
+
+
+  <!-- <distributionManagement>
+    <repository>
+      <id>nexus-releases</id>
+      <url>https://sckw.io:443/repository/maven-releases/</url>
+      <uniqueVersion>false</uniqueVersion>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>https://sckw.io:443/repository/maven-snapshots/</url>
+      <uniqueVersion>true</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement> -->
+
+
+</project>
